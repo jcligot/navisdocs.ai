@@ -1,6 +1,6 @@
 
 
-# **Rapport Technique : Mise en Œuvre d'un Système de Recherche Neurale de Nouvelle Génération avec ColBERT (Interaction Tardive) et Vespa, Intégré à Paperless-ngx AI et Ollama pour Modèles LLM sur CPU, via Docker Compose**
+# **Mise en Œuvre d'un Système de Recherche Neurale de Nouvelle Génération avec ColBERT (Interaction Tardive) et Vespa, Intégré à Paperless-ngx AI et Ollama pour Modèles LLM sur CPU, via Docker Compose**
 
 ## **1\. Introduction : Le Paysage de la Recherche Neurale et de la Génération Augmentée par la Récupération (RAG) de Nouvelle Génération**
 
@@ -213,5 +213,6 @@ En suivant ces recommandations, il est possible de construire un système de ges
 40. Communication between multiple docker-compose projects, consulté le juillet 20, 2025, [https://dev.to/iamrj846/communication-between-multiple-docker-compose-projects-223k](https://dev.to/iamrj846/communication-between-multiple-docker-compose-projects-223k)  
 41. vespaengine/vespa \- Docker Image, consulté le juillet 20, 2025, [https://hub.docker.com/r/vespaengine/vespa/](https://hub.docker.com/r/vespaengine/vespa/)  
 42. docker-compose.yaml \- vespa-engine/sample-apps \- GitHub, consulté le juillet 20, 2025, [https://github.com/vespa-engine/sample-apps/blob/master/examples/operations/multinode-HA/docker-compose.yaml](https://github.com/vespa-engine/sample-apps/blob/master/examples/operations/multinode-HA/docker-compose.yaml)  
-43. paperless-ngx-compose/docker-compose.env at main \- GitHub, consulté le juillet 20, 2025, [https://github.com/BWibo/paperless-ngx-compose/blob/main/docker-compose.env](https://github.com/BWibo/paperless-ngx-compose/blob/main/docker-compose.env)#   n a v i s d o c s . a i  
+43. paperless-ngx-compose/docker-compose.env at main \- GitHub, consulté le juillet 20, 2025, [https://github.com/BWibo/paperless-ngx-compose/blob/main/docker-compose.env](https://github.com/BWibo/paperless-ngx-compose/blob/main/docker-compose.env)#   n a v i s d o c s . a i 
+ 
  
