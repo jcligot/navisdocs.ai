@@ -29,8 +29,25 @@ Mise en œuvre d’un système de recherche neurale de nouvelle génération ave
 
 ## Architecture
 
-![Diagramme de l’architecture](lien_vers_image_diagramme.png)  
-*(Ajouter un diagramme visuel, ou un schéma Mermaid)*
+![Diagramme de l’architecture]
+graph TD
+    Paperless[Paperless-ngx AI]
+    Vespa[Vespa (Base de données vectorielle)]
+    ColBERT[ColBERT (Embeddings multivectoriels)]
+    Ollama[Ollama (LLM local, CPU)]
+    Intermédiaire[Service Intermédiaire (Orchestration RAG)]
+    Utilisateur[Utilisateur]
+
+    Utilisateur -->|Requête| Intermédiaire
+    Intermédiaire -->|Extraction de documents et métadonnées| Paperless
+    Paperless -->|Documents + Métadonnées| Intermédiaire
+    Intermédiaire -->|Embeddings ColBERT| ColBERT
+    ColBERT -->|Plongements| Vespa
+    Intermédiaire -->|Requête de recherche| Vespa
+    Vespa -->|Résultats pertinents| Intermédiaire
+    Intermédiaire -->|Contextes| Ollama
+    Ollama -->|Réponse générée| Intermédiaire
+    Intermédiaire -->|Réponse| Utilisateur
 
 **Composants principaux :**
 - Paperless-ngx AI : Ingestion, OCR, gestion des documents.
