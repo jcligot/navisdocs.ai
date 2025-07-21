@@ -1,6 +1,6 @@
 
 
-# Mise en Œuvre d'un Système de Recherche Neurale de Nouvelle Génération avec ColBERT (Interaction Tardive) et Vespa, Intégré à Paperless-ngx AI et Ollama pour Modèles LLM sur CPU, via Docker Compose**
+# **Mise en Œuvre d'un Système de Recherche Neurale de Nouvelle Génération avec ColBERT (Interaction Tardive) et Vespa, Intégré à Paperless-ngx AI et Ollama pour Modèles LLM sur CPU, via Docker Compose**
 
 ## **1\. Introduction : Le Paysage de la Recherche Neurale et de la Génération Augmentée par la Récupération (RAG) de Nouvelle Génération**
 
