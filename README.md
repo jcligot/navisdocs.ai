@@ -30,7 +30,7 @@ Mise en œuvre d’un système de recherche neurale de nouvelle génération ave
 ## Architecture
 
 ![Diagramme de l’architecture]
-graph TD
+```mermaid
     Paperless[Paperless-ngx AI]
     Vespa[Vespa (Base de données vectorielle)]
     ColBERT[ColBERT (Embeddings multivectoriels)]
@@ -48,7 +48,7 @@ graph TD
     Intermédiaire -->|Contextes| Ollama
     Ollama -->|Réponse générée| Intermédiaire
     Intermédiaire -->|Réponse| Utilisateur
-
+```
 **Composants principaux :**
 - Paperless-ngx AI : Ingestion, OCR, gestion des documents.
 - Vespa : Recherche vectorielle, indexation, classement.
